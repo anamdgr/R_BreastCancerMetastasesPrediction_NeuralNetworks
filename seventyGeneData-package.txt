@@ -1,0 +1,37 @@
+\name{seventyGeneData-package}
+\alias{seventyGeneData-package}
+\alias{seventyGeneData}
+\docType{package}
+\title{Annotated gene expression data from the van't Veer and Van de Vijver breast cancer cohorts
+}
+\description{
+Data from Van't Veer and Van de Vijver cohorts have been annotated and assembled to create two separate ExpressionSet instances, including microarray feature, expression and phenotypic data. The optimal set of genes constituting the 70-gene signature associated with metastatic recurrence at 5 years can be obtained.
+}
+\details{
+\tabular{ll}{
+Package: \tab seventyGeneData\cr
+Type: \tab Package\cr
+Version: \tab 1.0\cr
+Date: \tab 2015-08-27\cr
+License: \tab GLP-2\cr
+}
+
+}
+\author{
+Ana Medina
+
+Maintainer: Ana Medina <anamdgr@gmail.com>
+
+}
+\references{
+Gene expression profiling predicts clinical outcome of breast cancer (Van't Veer et al.)
+A gene-expression signature as a predictor of survival in breast cancer (Van de Vijver et al.)
+}
+
+\keyword{ package }
+\seealso{
+
+}
+\examples{
+test <- extractColumns(x, pattern, annVdV)
+}
